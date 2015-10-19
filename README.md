@@ -1,6 +1,6 @@
 ## Influxdb docker 
 
-influxdb的版本是0.9.4, 此次dockerfile不适合做influxdb集群.因为在docker run的启动参数里面, 没有映射相关参数.  由此需求的朋友，可以等我下次发布的dockerfile.
+influxdb的版本是0.9.4.2, 此次dockerfile不适合做influxdb集群.因为在docker run的启动参数里面, 没有映射相关参数.  由此需求的朋友，可以等我下次发布的dockerfile.
 
 ###usage:
 

@@ -3,7 +3,7 @@ FROM ubuntu:14.04
 MAINTAINER ruifengyun <rfyiamcool@163.com>
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV INFLUXDB_VERSION 0.9.4.1
+ENV INFLUXDB_VERSION 0.9.4.2
 
 RUN apt-get update && apt-get install -y curl && \
 curl -s -o /tmp/influxdb_latest_amd64.deb https://s3.amazonaws.com/influxdb/influxdb_${INFLUXDB_VERSION}_amd64.deb && \
