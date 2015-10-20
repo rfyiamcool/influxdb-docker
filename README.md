@@ -8,7 +8,7 @@ influxdb的版本是0.9.4.2, 此次dockerfile不适合做influxdb集群.因为�
 
 通过dockerfile构建一个镜像
 ```
-doc ker build -t fengyun/influxdb Dockerfile
+docker build -t fengyun/influxdb Dockerfile
 ```
 
 启动一个容器
